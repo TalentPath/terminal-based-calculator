@@ -1,3 +1,10 @@
+// Chase Faggard - Talent Path - 11/3/2021
+// "Simple JS Calculator"
+
+/* Description: Takes & verifies cmd input, then returns 
+ * a calculated result accordingly. 
+ */
+
 const { functions } = require('./functions.js') // Import function object
 
 const args =  process.argv; // Get arguments

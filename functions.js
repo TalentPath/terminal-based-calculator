@@ -1,4 +1,7 @@
-// Calculator functions
+// Chase Faggard - Talent Path - 11/3/2021
+// "Calculator Functions"
+
+/* Description: Exports an object that contains calculator functions */
 
 const functions = {
     add(a, b) { return a + b; },
@@ -9,4 +12,4 @@ const functions = {
     exponent(a, b) { return a ** b; }
 }
 
-module.exports = {functions }; // Export module
+module.exports = { functions }; // Export module
