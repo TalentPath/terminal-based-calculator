@@ -72,7 +72,7 @@ catch (error)
     process.exit();
 }
 
-if (int1 > Number.MAX_SAFE_INTEGER)
+if (num1 > Number.MAX_SAFE_INTEGER)
 {
     console.log();
     console.log("The first number is too large! Please enter a smaller number");
@@ -80,7 +80,7 @@ if (int1 > Number.MAX_SAFE_INTEGER)
     process.exit();
 }
 
-if (int2 > Number.MAX_SAFE_INTEGER)
+if (num2 > Number.MAX_SAFE_INTEGER)
 {
     console.log();
     console.log("The second number is too large! Please enter a smaller number");
