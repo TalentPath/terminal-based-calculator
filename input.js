@@ -16,29 +16,12 @@ if (args.length != 5)
     process.exit();
 }
 
-let int1 = 0;
-let int2 = 0;
-
 let num1 = 0;
 let num2 = 0;
 
-try
-{
-    num1 = Number(args[3]);
+num1 = Number(args[3]);
 
-    // try
-    // {
-    //     int1 = parseInt(num1);
-    // } catch (error)
-    // {
-    //     console.log();
-    //     console.log("You entered an invalid type of number for the first number.");
-    //     console.log("Please try again with only integer numbers");
-    //     console.log();
-    //     process.exit();
-    // }
-}
-catch (error)
+if (!isNaN(num1))
 {
     console.log();
     console.log("You entered an invalid argument for the first number.");
@@ -47,23 +30,8 @@ catch (error)
     process.exit();
 }
 
-try
-{
-    num2 = Number(args[4]);
-
-    // try
-    // {
-    //     int2 = parseInt(num2);
-    // } catch (error)
-    // {
-    //     console.log();
-    //     console.log("You entered an invalid type of number for the second number.");
-    //     console.log("Please try again with only integer numbers");
-    //     console.log();
-    //     process.exit();
-    // }
-}
-catch (error)
+num2 = Number(args[4]);
+if (!isNaN(num2))
 {
     console.log();
     console.log("You entered an invalid argument for the second number.");
