@@ -38,9 +38,18 @@ let calc = {
 
     remainder(a, b)
     {
-        console.log();
-        console.log(`The remainder of '${a} / ${b}" is ${a%b}`);
-        console.log();
+        if (b == 0)
+        {
+            console.log();
+            console.log(`The remainder of '${a} / ${b}" is Undefined`);
+            console.log();
+        }
+        else
+        {
+            console.log();
+            console.log(`The remainder of '${a} / ${b}" is ${a%b}`);
+            console.log();
+        }
     },
 
     exponents(a, b)

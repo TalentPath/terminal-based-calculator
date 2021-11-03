@@ -16,10 +16,7 @@ if (args.length != 5)
     process.exit();
 }
 
-let num1 = 0;
-let num2 = 0;
-
-num1 = Number(args[3]);
+let num1 = Number(args[3]);
 
 if (isNaN(num1))
 {
@@ -30,7 +27,8 @@ if (isNaN(num1))
     process.exit();
 }
 
-num2 = Number(args[4]);
+let num2 = Number(args[4]);
+
 if (isNaN(num2))
 {
     console.log();
