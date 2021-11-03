@@ -21,7 +21,7 @@ let num2 = 0;
 
 num1 = Number(args[3]);
 
-if (!isNaN(num1))
+if (isNaN(num1))
 {
     console.log();
     console.log("You entered an invalid argument for the first number.");
@@ -31,7 +31,7 @@ if (!isNaN(num1))
 }
 
 num2 = Number(args[4]);
-if (!isNaN(num2))
+if (isNaN(num2))
 {
     console.log();
     console.log("You entered an invalid argument for the second number.");
